@@ -19,6 +19,7 @@ export enum RuneLabel {
   HerosRune4 = "Hero's Rune (4)",
   HerosRune5 = "Hero's Rune (5)",
   LordsRune = "Lord's Rune",
+  MarikasRune = "Marika's Rune",
 }
 
 export const getRuneById = (runeId: number): Rune =>
@@ -104,5 +105,9 @@ export const allRunes: Rune[] = [
   {
     name: RuneLabel.LordsRune,
     souls: 50000,
+  },
+  {
+    name: RuneLabel.MarikasRune,
+    souls: 80000,
   },
 ];
